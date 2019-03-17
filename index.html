@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MagicCrystal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css">
+</head>
+<body>
+<div class="jumbotron" style="background-color: rgb(48, 179, 219);">
+        <h3 class="display-4" style="text-align: center;background-color: rgb(156, 39, 192);">Crystal Game</h3>          
+</div>
+<div class="container">
+        <div class="row">
+        <div class="col-md-12">       
+        <div class="card-body">
+                <h5 class="card-title">Directions</h5>
+                <p class="card-text">
+                        <ul class="directionList">
+                                <li>1. Check your randomly selected Goal number.</li>
+                                <li>2. Determine the randomly selected value of each of each crystal.</li>
+                                <li>3. Reach the Goal number by finding the value, clicking and adding the crystals.</li>
+                                <li>4. Hit the Goal number, YOU WIN!!! HOORAY!!!</li>
+                                <li>4. Pass the Goal number, YOU LOSE!!! WA Wa waaaaaa!!!</li>
+                        </ul>
+                </p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+        <button id="button-1" class="btn btn-light btn-sm pic"><span><input type="image" src="./assets/images/crystal1.jpg"></input></span></button>
+        <button id="button-2" class="btn btn-light btn-sm pic"><span><input type="image" src="./assets/images/crystal2.jpg"></input></span></button>
+        <button id="button-3" class="btn btn-light btn-sm pic"><span><input type="image" src="./assets/images/crystal3.jpg"></input></span></button>
+        <button id="button-4" class="btn btn-light btn-sm pic"><span><input type="image" src="./assets/images/crystal4.jpg"></input></span></button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        <h6 class="goalwinlosetotal">Goal Number: <span id="goalSpan"></span></h6>
+<br>
+<br>
+        <p class="goalwinlosetotal">Wins: <span id="winSpan"></span></p>
+<br>
+        <p class="goalwinlosetotal">Losses: <span id="loseSpan"></span></p>
+<br>
+        <p class="goalwinlosetotal">Total: <span id="totalSpan"></span></p>
+</div>
+</div>
+</div>
+
+
+<script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.card-title {
+
+    text-decoration: underline;
+    text-align: center;
+    font-size: 175%;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.card-text {
+
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.directionList {
+
+    text-align: center;
+    font-size: 125%;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.goalwinlosetotal {
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 200%;
+}
+
+
+
+.pic {
+
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    padding: 20px;
+
+}
